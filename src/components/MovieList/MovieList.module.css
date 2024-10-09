@@ -1,0 +1,30 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.item {
+  width: 400px;
+  transition: scale 0.4s;
+}
+.item:hover {
+  scale: 1.05;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(221, 209, 194);
+  font-size: 18px;
+  gap: 20px;
+}
+
+.link:hover {
+  color: rgb(216, 142, 51);
+}
+
+.img {
+  width: 400px;
+  height: 225px;
+  border-radius: 6px;
+}

@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(221, 209, 194);
+  font-size: 18px;
+}
+
+.link:hover {
+  color: rgb(203, 113, 3);
+}
+
+.active {
+  color: rgb(246, 196, 104);
+}

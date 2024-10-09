@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  text-align: left;
+}
+
+.item {
+  max-width: 200px;
+}
+
+.img {
+  max-width: 200px;
+  min-height: 300px;
+  border-radius: 8px;
+  margin-bottom: 6px;
+}
+
+.error {
+  color: red;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}

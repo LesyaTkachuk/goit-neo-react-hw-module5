@@ -1,0 +1,80 @@
+.form {
+  display: flex;
+  flex: 1;
+  gap: 8px;
+  margin: 14px 0;
+  max-width: 700px;
+  align-self: flex-start;
+}
+
+.input-wrapper {
+  display: flex;
+  width: 100%;
+  min-width: 360px;
+  align-items: center;
+  background-color: antiquewhite;
+  border: 2px solid #242424;
+  border-radius: 8px;
+  gap: 8px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+
+.input {
+  width: 100%;
+
+  padding: 8px 12px;
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+  color: #242424;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.icon {
+  color: black;
+  flex-shrink: 0;
+}
+
+.clear-button {
+  background-color: transparent;
+  padding: 6px 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.search-button {
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(45, 56, 62);
+  color: antiquewhite;
+  font-size: 18px;
+  padding: 8px 12px;
+  gap: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(52, 24, 24, 0.09) 0px 32px 16px;
+  transition: background-color 0.4s;
+}
+
+.search-button:hover {
+  background-color: rgb(7, 43, 66);
+}
+
+@media screen and (max-width: 500px) {
+  .form {
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+  }
+}
